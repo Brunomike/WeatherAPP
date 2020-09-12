@@ -1,0 +1,21 @@
+{
+    "author":"Michael Bruno",
+    "background-color":"#ffffff",
+    "description":"Weather App",
+    "display":"standalone",
+    "icons":[
+
+        {"64":"/images/icon-64.png",
+         "128":"/images/icon-128.png",
+        "256":"/images/icon1-256.png"}
+        
+
+    ],
+    "manifest_version":2,
+    "name":"Weather",
+    "orientation":"portrait",
+    "short_name":"Weather",
+    "start_url":"/index.html",
+    "theme_color":"#ffffff",
+    "version":"0.1"
+}

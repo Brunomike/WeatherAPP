@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Weather App</title>
+  <script defer src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+  <script defer src="https://kit.fontawesome.com/24743688ba.js" crossorigin="anonymous"></script>
+
+  <script defer src="/app.js"></script>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="heading">
+
+      <h1>Get LIVE Weather</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="search">
+      <div class="input">
+        <input type="text" placeholder="Enter Location" class="inputValue" data-city-search>
+        <div>
+          <i class="fas fa-search"></i></div>
+      </div>
+    </section>
+    <section class="search_results">
+      <div class="display">
+        <h1 class="name">Location Name</h1>
+        <div class="degrees">
+          <p class="temp">20</p>
+          <span>&#176C</span>
+          <figure class="icons">
+            <canvas id="icon"></canvas>
+          </figure>
+        </div>
+        <p class="description">Clear Sky</p>
+    </section>
+    <section class="additional-info">
+      <div class="more-weather-info">
+        <p class="maxtemp">High_ _</p>
+        <p class="mintemp">Low_ _</p>
+        <p class="humidity">Humidity_ _</p>
+        <p class="pressure">Pressure_ _</p>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
