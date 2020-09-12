@@ -26,7 +26,7 @@ search.addEventListener("keypress", function (e) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +
         inputValue.value +
-        ",&appid=23d7b663275688cfca4066a206d8884b"
+        ",{APIId}"
     )
       .then((response) => response.json())
       //.then(data => console.log(data))
